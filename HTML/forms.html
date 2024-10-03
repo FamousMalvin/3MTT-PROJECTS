@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms</title>
+	<header>
+		<h1>Creating Forms</h1>
+	</header>
+</head>
+<body>
+	<form style="background-color: skyblue;">
+		<div>
+		<label>Name</label>
+		<input type="name" name="id" placeholder="username" required>
+	</div>
+	<div>
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" required>
+	</div>
+	<div>
+		<label for="age">Age</label>
+		<input type="number" name="age" id="age" min="1" max="200">
+	</div>
+	<div>
+		<label for="date">Birthdate</label>
+		<input type="date" name="date" id="date">
+	</div>
+
+	<div>
+		Favourite Food
+	</div>
+	<div>
+	<label for="yam">Yam</label>
+	<input type="checkbox" name="yam">
+   </div>
+   <div>
+	<label for="rice">Rice</label>
+	<input type="checkbox" name="rice">
+	<div>
+		Gender
+		<div>
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="male">
+	</div>
+	<div>
+			<label for="female">Female</label>
+			<input type="radio" name="gender" id="female">
+	</div>
+	<div>
+		Marital Status
+		<div>
+			<div>
+			<label for="single">Single</label>
+			<input type="radio" name="marital status" id="single">
+		</div>
+		<div>
+			<label for="married">Married</label>
+			<input type="radio" name="marital Status" id="married">
+	</div>
+	<div>
+			<label for="others">Others</label>
+			<input type="radio" name="marital Status" id="others">
+	</div>
+	<div>
+			<label for="eyecolor">Eye color</label>
+		<select name="eye eyecolor" id="eyecolor">
+			<option value="blue">Blue</option>
+			<option label="Red" value="Red">Red</option>
+		</select>
+	</div>
+	<div>
+		<label for="bio">Bio</label>
+		<textarea id="bio" name="bio">My name is famous</textarea>
+	</div>
+	<div>
+			<label for="file">File</label>
+			<input id="file" type="file"  name="file">
+	</div>
+	<div>
+			<label for="phone">Phone</label>
+			<input id="phone" type="tel"  name="phone">
+	</div>
+	<div>
+		<label for="URL">URL</label>
+		<input type="URL" name="URL" id="URL">
+	</div>
+    <div>
+    	<label for="color">Color</label>
+    	<input type="color" name="color" id="color">
+    </div>
+	<div>			 
+		<label>Password</label>
+		<input type="Password" name="Password" required>
+	</div>
+	 <button>Reset</button>
+	 <button>Submit</button>
+
+	</form>
+</body>
+</html>

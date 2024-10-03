@@ -1,0 +1,130 @@
+body {
+	font-family:  sans-serif;
+	padding: 0 16px;
+}
+nav{
+	text-align: right;
+}
+.menu-item{
+	font-size: 11px;
+	color: black;
+	text-decoration: none;
+	position: relative;
+	top: -8px;
+	margin-right: 16px;
+}
+#dropdown-menu{
+    position: relative;
+	top: -6px;
+	width: 14px;
+	margin-right: 16px;
+}
+.menu-item:hover{
+    text-decoration: underline;
+}
+#profile-pic{
+	width: 2.5%;
+	height: 1%;
+	border-radius: 100%;
+	
+ }
+ section{
+ 	text-align: center;
+ 	padding-top: 10%;
+ }
+ section > img{
+ 	width:19%;
+ 	height: 19%;
+ 	display: inline-block;
+ 	margin-top: 5px;
+ }
+ #input-wrapper{
+ 	position: relative;
+ 	width: 520px;
+ 	display: inline-block;
+ }
+ #search-box{
+ 	width: 100%;
+ 	color: #222;
+ 	border: 1px solid #dfe1e5;
+ 	font-size: 13px;
+ 	padding: 12px;
+ 	border-radius: 24px;
+ 	outline: none;
+ 	margin-top: 29px;
+ 	margin-bottom: 24px;
+
+ }
+#search-box:hover{
+	box-shadow: 0 1px 6px 0 rgba(3, 33, 36, 0.40);
+	border-color: rgba(223, 225, 229, 0);
+ }
+ #search-box:focus{
+	box-shadow: 0 1px 6px 0 rgba(3, 33, 36, 1.90);
+	border-color: rgba(223, 225, 229, 0);
+	margin-top: 26px;
+}
+ #input-wrapper > img {
+ 	position: absolute;
+ 	top: 36px;
+ 	right: 0;
+ 	width: 38px;
+ }
+ .custom-btn{
+     background-color: #f2f2f2;
+     color: #5F6368;
+     font-size: 13px;
+     height: 36px;
+     padding: 0 16px;
+     background-image: linear-gradient(top,#f5f5f5, #f1f1f1);	
+     border: 1px solid transparent;
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+     color: #222;
+ }
+.custom-btn:hover {
+     background-image: linear-gradient(top,#f5f5f5, #f1f1f1);	
+     border: 1px solid #c6c6c6;
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+     color: #222;
+ }
+.custom-btn:first-of-type {
+ margin-right: 16px;
+}
+#app-dropdown{
+	width: 285px;
+	padding: 1%;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+	position: absolute;
+	right: 80px;
+	display:none;
+	border-radius: 8px;
+}
+#dropdown-wrapper{
+	display: inline-block;
+}
+#dropdown-wrapper:hover #app-dropdown{
+	display: block;
+}
+.app-item{
+	display: inline-block;
+	width: 84px;
+	padding: 8px 2px;
+	text-align: center;
+
+	}
+.app-item:hover{
+ border: 1px solid rgba(0, 0, 0, 0.2) ;
+ border-radius:8px ;
+}
+.app-item > img{
+	width: 45px;
+	height: 45px;
+}
+.app-item > p{
+	color: rgba(0, 0, 0, 0.87);
+	margin: 0;
+	padding-top: 8px;
+}
+
+

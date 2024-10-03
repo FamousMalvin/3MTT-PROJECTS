@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Html Tables</title>
+	</head>
+	<style>
+		table, th, td {
+			border:1px solid black;
+			border-collapse: collapse;
+			border-style: dashed;
+			border-color: #ff788f;
+
+		}
+		th, td { 
+			background-color: #00ffgg;
+			}
+	</style>
+<body style="background-color: #ffffff;">
+	<h1>Defining Html Tables</h1>
+	<p>A table consist of tables cells inside rows and columns</p>
+	<table style="width: 100%; text-align: center;">
+		<colgroup>
+			<col span="3"
+			style="background-color: red">
+		</colgroup>
+		<tr>
+			<th>Company</th>
+			<th>Contact</th>
+			<th>Country</th>
+		</tr>
+		<tr>
+			<td>Total Energies</td>
+			<td>Maria Chike</td>
+			<td>France</td>
+		</tr>
+		<tr>
+		    <td>Shell</td>
+		    <td>John Smith</td>
+		    <td>England</td>
+		</tr>
+	</table>
+</body>
+</html>

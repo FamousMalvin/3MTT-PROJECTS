@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>INPUT ATTRIBUTE</title>
+</head>
+<body>
+	<h2>HTML FORM INPUT ATTRIBUTES: for input controls.</h2>
+
+	<p>Value Attribute</p>
+	<form>
+		<label for="fname">First Name:</label>
+		<input type="text" id="fname" name="fname" value="John">
+		<label for="lname">Last Name:</label>
+		<input type="text" id="lname" name="lname" value="Smith">
+		<input type="submit" value="Submit">
+
+		<p>Readonly Attribute</p>
+		<form>
+			<label for="fname">First Name:</label>
+		<input type="text" id="fname" name="fname" value="John">
+		<label for="lname">Last Name:</label>
+		<input type="text" id="lname" name="lname" value="Smith" readonly>
+		</form>
+	</form>
+
+	     <p>Disabled Attribute</p>
+	     <form>
+	     	<label for="fname">First Name:</label>
+		<input type="text" id="fname" name="fname" value="John">
+		<label for="lname">Last Name:</label>
+		<input type="text" id="lname" name="lname" value="Smith" disabled>
+		 </form>
+
+		  <p>Size Attribute: This attribute works with the following input types: tel, url email and password</p>
+	     <form>
+	     	<label for="fname">First Name:</label>
+		<input type="text" id="fname" name="fname" size="50">
+		<label for="pin">PIN:</label>
+		<input type="text" id="pin" name="pin" size="7">
+		 </form>
+
+		 <p>Maxlenght Attribute</p>
+	     <form>
+	     	<label for="fname">First Name:</label>
+		<input type="text" id="fname" name="fname" size="50">
+		<label for="pin">PIN:</label>
+		<input type="text" id="pin" name="pin" maxlength="5" size="7">
+		 </form>
+
+		 <p>Min and Max Attribute: This attribute work the following input types: number, date range, datetime-local month time and week</p>
+		 <form>
+		 	<label for="date">Enter date before 1980-01-01:</label>
+		<input type="date" id="datemax" name="datemax" max="1979-12-31">
+
+		<label for="date">Enter date after 2000-01-01:</label>
+		<input type="date" id="datmin" name="datemin" max="2001-02-02">
+		 	<br><br>
+		 <label for="quantity">Quantity (between 1 and 5)</label>
+		<input type="number" id="quantity" name="quantity" min="1" max="5">
+		 </form>
+
+		  <p><b>Multiple Attribute: This attribute works with the following input types: emails, file.</b></p>
+	     <form>
+	     	<label for="files">Select Files:</label>
+		<input type="file" id="file" name="file" multiple><br><br>
+		<input type="submit" value="Submit">
+
+		<p><b>Pattern Attribute: works with the following input types: text date search url tel email and password.</b></p>
+	<form>
+		<label for="country_code">Country code:</label>
+		<input type="text" id="country_code" name="country_code" pattern="[a-za-z] {3}" title="three letter country code">
+		<input type="submit" value="Submit">
+		</form>
+
+		<p><b>Placeholder Attribute: works with the following input types: text date search url tel email and password.</b></p>
+	   <form>
+		<label for="phone">Enter a phone number:</label>
+		<input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+		<input type="submit" value="Submit">
+		</form>
+
+		<p><b>Required Attribute: works with the following input types: text search url tel email date pickers number checkbox radio password and file.</b></p>
+		<form>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+			<input type="submit" value="Submit">
+		   </form>
+
+		   <p><b>Step Attribute: works with the following input types: date range datetime-local month week time and number.</b></p>
+		<form>
+			<label for="point">Point:</label>
+			<input type="number" id="point" name="piont" step="3">
+			<input type="submit" value="Submit">
+		   </form>
+
+		   <p><b>Autofocus Attribute: This attribute specifiies that an input field should automatically grt focus when page loads.</b></p>
+		<form>
+			<label for="fname">First Name:</label>
+		<input type="text" id="fname" name="fname" autofocus>
+		<label for="lname">Last Name:</label>
+		<input type="text" id="lname" name="lname">
+		<input type="submit" value="Submit">
+		</form>
+
+    <p><b>The Height and Width Attribute</b></p>
+	    <form>
+		<label for="fname">First Name:</label>
+		<input type="text" id="fname" name="fname">
+		<label for="lname">Last Name:</label>
+		<input type="text" id="lname" name="lname">
+		<input type="image" src="images/piworld.jpg" alt="piworld" width="100" height="100">
+		
+		<p><b>List Attribute: This refers to datalist element that contains pre-defined options for an input element</b></p>
+		<form>
+	    <label for="list"> Choose One Item:</label>
+		<input list="browsers">
+		<datalist id="browsers">
+		<option value="Firefox">
+     	<option value="Operamini">
+        <option value="Chrome">
+        <option value="Safari">	
+        </datalist>
+        <input type="submit" value="Submit">
+		</form>
+
+		<p><b>Autocomplete Attribute: text search url tel email datepickers, range datepickers color password and file.</b></p>
+	    <form>
+		<label for="fname">First Name:</label>
+		<input type="text" id="fname" name="fname">
+		<label for="lname">Last Name:</label>
+		<input type="text" id="lname" name="lname"><br>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"
+		placeholder="johnsmith@gmail.com" autocomplete="on">
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>

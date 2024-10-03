@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Picture Element</title>
+</head>
+<body>
+	<h1>Picture Element</h1>
+	<picture>
+	<source media="(min-width: 90)"srcset="piworld.jpg">
+		<source media="(min-width: 450)"srcset="pi.jpg">
+		<img src="soccer_players.jpg">
+		<img src="pi.jpg">
+	</picture>
+<picture>
+<source media="(min-width: 400)"srcset="soccer_players.jpg">
+<source media="(min-width: 400)"srcset="html_logo.png">
+<source media="(min-width: 40)"srcset="piworld.jpg">
+<source media="(min-width: 400)"srcset="pi.jpg">
+</picture>
+<picture>
+<img src="soccer_players.jpg" style="width: 70px; height: 100px;">
+<source srcset="html_logo.png">
+<source srcset="piworld.jpg">
+<source srcset="pi.jpg">
+</picture>
+</body>
+</html>

@@ -1,0 +1,63 @@
+ /*div{ TRANSFORM PROPERTY
+    background-color: blue;
+    
+    margin: 40px;
+    width: 250PX;
+    height: 250PX;
+     transition-property:background-color;
+    transition-duration: 3000ms;
+    transition-timing-function: linear;   
+  transform: translate(-50%, -50%);
+    top:50%;
+    left: 50%;
+    transform: translate(480px, 45px);
+    transform: rotateZ(145deg);
+    transform:scaleX(0.5, 3.4)
+    transform:skewX(23deg)
+    transition: background-color 3s ease-in,
+    border-radius 3s ease-in;
+    }
+    div:hover{
+        background-color: rgb(77, 255, 210);
+        border-radius: 120px;
+    }
+    #div2:hover{
+        background-color: rgb(77, 255, 210);
+    }
+    #div2{
+        
+        background-color: rgb(190, 176, 159);
+        transition-timing-function: ease-in;
+        transition: background-color 3s ease-out
+        border-radius 3s ease-out;
+    }*/
+
+
+
+
+    /*ANIMATION PROPERTY*/
+    div{
+        border: 1px solid black;
+        margin: 40px;
+        width: 250px;
+        height: 250px;
+        /*animation-name: pulse;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;*/
+        animation: pulse 3s ease-in infinite;
+
+    }
+    div:hover{
+        animation-play-state: paused;
+    }
+    @keyframes pulse{
+        0%{
+            background-color: lightblue;
+            transform: rotateZ(0deg);
+        }
+        100%{
+            background-color: blue;
+            transform: rotateZ(100deg);
+        }
+    }

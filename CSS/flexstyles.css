@@ -1,0 +1,406 @@
+body{
+ margin: 0;
+background-color: rgb(230, 231, 226);
+width: 100%
+}
+main{
+    position: absolute;
+    left: 23px;
+    width: 100%;
+}
+
+
+#topbar{
+    padding: 4px 70px;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color:rgb(9, 112, 196);
+    display: flex;
+    justify-content: space-around;
+    
+}  
+
+#logo{
+    
+    letter-spacing: -1px;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(243, 240, 240) ;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-right: 80px;
+    
+    }
+    #logo > p{
+    margin: 1px 10px;
+    padding: 18px;
+    position: relative;
+    right: 100px;
+
+    }
+#menu-wrapper{
+    display: flex;
+    margin-left:600px;
+    position: relative;
+    align-items: center;
+    right: 45px;
+    bottom: 1px;
+}
+.menu-item{
+    margin-right: 17px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(243, 240, 240) ;
+    
+}
+
+#menu-wrapper2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    right: 68px;
+    top: 1px;
+    ;
+}
+
+.profilename{
+    margin-right: -13px;
+    font-weight: 500;
+     font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(243, 240, 240); 
+}
+.profilepic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: -4px;
+    margin-left: 21px;
+}
+#Top{
+    display: flex;
+    margin-top: 26px;
+    width: 800px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:white;
+
+}
+#second-nav-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top:3px ;
+
+    
+}
+
+#sidebar-container{
+    display: flex;
+    position:absolute;
+    right: 856px;
+    top: -2px;
+    width: 260px;
+    height: 433px;
+    background-color:white;
+    flex-direction: column;
+
+}
+.sidebar-items{
+display: flex;
+align-items: center;
+position: relative;
+left: 15px;
+margin-top: 10px;
+margin-bottom: -14px;
+}
+.sidebar-items:hover{
+border-radius: 28px;
+outline-style: none;
+position:relative;
+width: 230px;
+height: 35px;
+box-sizing: border-box;
+background-color: #dbd7d7;
+box-shadow: rgb(182, 177, 177);
+cursor: pointer;
+display: flex;
+align-items: center;
+border-width: 34px;
+}
+.sidebar-items:hover:first-of-type{
+    color: rgb(9, 112, 196);
+}
+.sidebar-items:nth-first-of-type(1){
+    visibility: visible;
+    background-color: aqua;
+    
+
+}
+ #footer1 {
+position: absolute;
+bottom: 250px;
+top: 195px;
+font-size: 12px;
+font-weight: 300;
+line-height: 21px;
+left: 4px;
+ }
+ 
+
+.sidebar-items p{
+    position: relative;
+    left: 9px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.sidebar-items img{
+    width: 22px;
+    height: 22px;
+}
+
+#div-container{
+  align-items: center;
+  display:flex;
+}
+#sub-ordinate{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 10px;    
+}
+
+
+#sub-ordinate > img{
+width: 32px;
+height: 20px;
+}
+#sub-ordinate h1{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(9, 112, 196);
+
+}
+
+#sub-ordinate2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 550px;
+    }
+#sub-ordinate2 > img{
+width: 20px;
+height: 20px;
+position: absolute;
+left: 68px;
+
+}
+#sub-ordinate2 p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: #928f8f;
+
+}
+section{
+    width: 800px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 400px;
+}
+    #div-container{
+        width: 100%;
+        position:relative;
+        left: 19px;
+        right: 19px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+#second-div{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#second-div p{ 
+    position: relative;
+    right: 30px;
+    margin: 2px 40px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #928f8f;
+    
+}
+
+.pigirl-photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+#section2{
+    background-color:white;
+    margin-top: 2px;
+    
+    
+    
+}
+#third-div{
+    box-sizing: border-box;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    margin-left:10px ;
+    
+}
+#sub-ordinate3{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#sub-ordinate3 > img{
+width: 32px;
+height: 20px;
+}
+#sub-ordinate3 h1{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgb(9, 112, 196);
+}
+
+#div-wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 21px;
+    margin-right: 30px;
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+
+#div-wrapper .pi-photo{
+width: 135px;
+height: 90px;
+border-radius: 5px;
+}
+
+span{
+    color:rgb(9, 112, 196);
+}
+
+#div-wrapper > p{
+position: relative;
+left: 16px;
+color: #9c9494;
+font-size: 13px;
+font-weight: 500;
+font-family: sans-serif;
+}
+
+#section3{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 34px;
+    background-color:white;
+    
+}
+#div-container2{
+    margin-bottom: 20px;
+}
+#div-wrapper2 > img{
+    width: 32px;
+    height: 20px;
+    left: 7px;
+    position: relative;
+    }
+
+    #div-wrapper2 h1{
+        font-size: 18px;
+        font-weight: 600;
+        font-family: sans-serif;
+        color: rgb(9, 112, 196);
+        left: 7px;
+        position: relative;
+        
+        
+    
+    }
+    #div-wrapper2{
+        display: flex;
+        align-items: center;
+    
+    }
+
+    .input-wrapper{
+        border: 1px solid #aca6a6 ;
+        border-radius: 28px;
+         width: 645px;
+         height: 35px;
+         position: relative;
+         outline: none;
+        left: 15px;
+    }
+    .input-search-box{
+        width: 110px;
+        height: 40px;
+        border: 1px solid rgb(9, 112, 196) ;
+        background-color:rgb(9, 112, 196);
+        border-radius: 28px;
+        position: relative;
+        left: 20px;
+        color: rgb(243, 240, 240); 
+        font-size: 15px;
+        font-weight: 500;  
+    }
+
+    #section4{
+         background-color: white;
+         margin-bottom: 50px;
+         margin-top: -32px;
+}
+    #div-container3{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 2px;
+}
+
+    #div-wrapper3{
+         position: relative;
+         left: 1px;
+         margin-top: 10px;
+}
+    #div-wrapper3  p{
+      position: relative;
+      left: 12px;
+      top: -17px;
+      font-size: 13px;
+      font-weight: 500;
+      font-family: sans-serif;
+      line-height: 20px;
+      color: rgb(150, 146, 146);
+
+}
+
+    
+#div-wrapper3 .pigirl-photo1{
+    width: 240px;
+    height: 140px;
+    margin: 13px;
+    border-radius: 5px;
+    }
+    

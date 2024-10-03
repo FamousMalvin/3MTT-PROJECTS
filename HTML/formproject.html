@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML FORM TASK</title>
+</head>
+<style>
+	form {
+		 border: solid white;
+         background-color: white;
+         border-radius: 28px;
+         padding-left: 1%;
+         padding-right: 1%;
+         width: 17%;
+         padding-bottom: 1%;
+         padding-top: 1%;
+         margin-left: 40%;
+         margin-right: 40%;
+         border-color: white;
+     }
+     label {
+    font-size: 100%;
+     }
+	 input {
+		outline: none;
+	 }
+	 select {
+		outline-style: none;
+	 }
+</style>
+<body style="background-color: blueviolet;"> 
+	<form>
+		<h4 style="text-align: center;">Say Hello!</h4><br>
+		<label for="name">Your Name:</label><br><br>
+		<input style="border: none;
+		border-bottom:2px solid black;" type="text" id="name" name="name" placeholder="Enter your name" size="27"><br><br>
+        
+        <label for="email">Email:</label><br><br>
+		<input style="border: none;
+		border-bottom:2px solid black;" type="email" id="email" name="email" placeholder="Enter email" size="27">
+        
+        <br><br><label for="service">Needed Services</label><br><br>
+	 	<select style="border: none; border-bottom: 2px solid black; margin-left:1%; padding-left: 1%; padding-right: 45%;"
+         id="service" name="service">
+	 	<option value="choose a services">Choose Service</option>
+	 	</select><br><br>
+	
+	   <label for="budget" >Budget</label><br><br>
+	 	<select  style="border: none;
+		border-bottom: 2px solid black; margin-left:1%; padding-left: 1%; padding-right: 45%;" id="budget" name="budget" >
+	 	<option value="choose a services">Choose Budget</option>
+	 	</select>
+	   
+	   <br><br> <label for="message">Message</label>
+	   <textarea style="border: none;
+		border-bottom: 2px solid black;" name="message" rows="7%" cols="28%"></textarea><br><br>
+
+		<input type="submit" value="Submit" style=" margin: 5%; padding: 1%; padding-left: 36%;
+		 padding-right: 36%;  border: solid blueviolet; border-radius: 6px ; background-color: blueviolet;">
+	</form>
+	  
+	
+
+
+
+</body>
+</html>

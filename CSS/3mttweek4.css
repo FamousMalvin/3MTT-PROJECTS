@@ -1,0 +1,20 @@
+#top-bar{
+display: flex;
+justify-content: space-around;
+position: relative;
+background-color: aqua;
+width: 1005;
+}
+top-bar
+h1{
+    position: relative;
+    left: 156px;
+    padding: 19px;
+    display: flex;
+
+}
+
+.nav-item{
+   display: inline;
+   position: relative;
+}

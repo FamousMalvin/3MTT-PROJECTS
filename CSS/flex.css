@@ -1,0 +1,142 @@
+/* Flex Container Property
+
+body{ 
+    margin: 0;
+}
+#life{
+background-color: black;
+text-align: center;
+color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#container{
+    background-color: rgb(115, 255, 0);
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+.item{
+    background-color: rebeccapurple;
+    text-align: center;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+} */
+
+/* Align Flex Item
+
+body{ 
+    margin: 0;
+}
+h1{
+background-color: black;
+text-align: center;
+color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#container{
+    background-color: rgb(115, 255, 0);
+    width: 100vw;
+    height: 900px;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.item{
+    background-color: rebeccapurple;
+    text-align: center;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+} */
+
+
+/*  Align Flex Content
+
+body{ 
+    margin: 0;
+}
+h1{
+background-color: black;
+text-align: center;
+color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#container{
+    background-color: rgb(115, 255, 0);
+    width: 100vw;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.item{
+    background-color: rebeccapurple;
+    text-align: center;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+} */
+
+
+
+Flex Item Properties
+
+body{ 
+    margin: 0;
+}
+h1{
+background-color: black;
+text-align: center;
+color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#container{
+    background-color: rgb(115, 255, 0);
+    width: 100vw;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    
+.item{
+    background-color: rebeccapurple;
+    text-align: center;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+    /*flex-grow: 1;*/
+    flex-basis: 140px;
+} 
+/*.item:nth-child(2) {
+background-color: aqua;
+flex-grow: 0;
+flex-shrink: 2;
+order: 1;
+}*/
+
+.item:nth-child(even) {
+    background-color:aqua;
+    align-self: center;
+}
+
+.item:nth-child(odd) {
+    background-color:pink;
+    align-self: flex-start;
+
+}
